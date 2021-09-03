@@ -6,7 +6,7 @@
   <link href="https://yjgbg.github.io/atom.xml" rel="self"/>
   
   <link href="https://yjgbg.github.io/"/>
-  <updated>2021-09-03T06:44:38.284Z</updated>
+  <updated>2021-09-03T07:03:51.789Z</updated>
   <id>https://yjgbg.github.io/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Hello World</title>
-    <link href="https://yjgbg.github.io/2021/09/03/hello-world/"/>
-    <id>https://yjgbg.github.io/2021/09/03/hello-world/</id>
-    <published>2021-09-03T06:44:38.284Z</published>
-    <updated>2021-09-03T06:44:38.284Z</updated>
+    <title>以函数式编程思维设计一个通用的数据校验器</title>
+    <link href="https://yjgbg.github.io/2021/09/03/fun-valid/"/>
+    <id>https://yjgbg.github.io/2021/09/03/fun-valid/</id>
+    <published>2021-09-03T07:03:51.789Z</published>
+    <updated>2021-09-03T07:03:51.789Z</updated>
     
     
       
@@ -38,11 +38,11 @@
   </entry>
   
   <entry>
-    <title>以函数式编程思维设计一个通用的数据校验器</title>
-    <link href="https://yjgbg.github.io/2021/09/03/fun-valid/"/>
-    <id>https://yjgbg.github.io/2021/09/03/fun-valid/</id>
-    <published>2021-09-03T06:44:38.280Z</published>
-    <updated>2021-09-03T06:44:38.284Z</updated>
+    <title>Hello World</title>
+    <link href="https://yjgbg.github.io/2021/09/03/hello-world/"/>
+    <id>https://yjgbg.github.io/2021/09/03/hello-world/</id>
+    <published>2021-09-03T07:03:51.789Z</published>
+    <updated>2021-09-03T07:03:51.789Z</updated>
     
     
       
