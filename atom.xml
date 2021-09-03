@@ -6,7 +6,7 @@
   <link href="https://yjgbg.github.io/atom.xml" rel="self"/>
   
   <link href="https://yjgbg.github.io/"/>
-  <updated>2021-09-02T18:01:34.079Z</updated>
+  <updated>2021-09-03T06:44:38.284Z</updated>
   <id>https://yjgbg.github.io/</id>
   
   <author>
@@ -18,10 +18,31 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="https://yjgbg.github.io/2021/09/02/hello-world/"/>
-    <id>https://yjgbg.github.io/2021/09/02/hello-world/</id>
-    <published>2021-09-02T18:01:34.079Z</published>
-    <updated>2021-09-02T18:01:34.079Z</updated>
+    <link href="https://yjgbg.github.io/2021/09/03/hello-world/"/>
+    <id>https://yjgbg.github.io/2021/09/03/hello-world/</id>
+    <published>2021-09-03T06:44:38.284Z</published>
+    <updated>2021-09-03T06:44:38.284Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html"></summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>以函数式编程思维设计一个通用的数据校验器</title>
+    <link href="https://yjgbg.github.io/2021/09/03/fun-valid/"/>
+    <id>https://yjgbg.github.io/2021/09/03/fun-valid/</id>
+    <published>2021-09-03T06:44:38.280Z</published>
+    <updated>2021-09-03T06:44:38.284Z</updated>
     
     
       
