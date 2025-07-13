@@ -2,7 +2,7 @@
 
 
 println("hello world!")
-os.write(pwd / "gitlab-ci.sc.yml", """
+os.write(os.pwd / "gitlab-ci.sc.yml", """
 hello-world:
   image: docker.io/alpine:latest
   script:
