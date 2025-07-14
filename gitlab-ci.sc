@@ -14,7 +14,7 @@ println(x)
 //     - echo "hello world"
 //     - cat github-event.json
 // """)
-os.write(os.pwd / "gitlab-ci.sc.yml","stage: []")
+os.write(os.pwd / "gitlab-ci.sc.yml","stages: []")
 
 // gitlabCi:
   
