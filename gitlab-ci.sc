@@ -1,6 +1,5 @@
 //> using toolkit default
 
-
 println("hello world!")
 os.write(os.pwd / "gitlab-ci.sc.yml", """
 hello-world:
