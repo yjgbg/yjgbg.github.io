@@ -8,4 +8,3 @@ hello-world:
     - echo "hello world"
     - cat "$TRIGGER_PAYLOAD"
 """)
-
