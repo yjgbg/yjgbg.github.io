@@ -1,26 +1,8 @@
 //> using toolkit default
-import java.nio.file.Files
-import java.nio.file.Paths
-val x = Files.readAllLines(Paths.get(sys.env("TRIGGER_PAYLOAD")))
-println("hello world!")
-println(x)
-// os.write(os.pwd / "gitlab-ci.sc.yml", """
-// hello-world:
-//   image: docker.io/alpine:latest
-//   needs:
-//     - pipeline: $PARENT_PIPELINE_ID
-//       job: init-jobs
-//   script:
-//     - echo "hello world"
-//     - cat github-event.json
-// """)
-os.write(os.pwd / "gitlab-ci.sc.yml","stages: []")
-
-// gitlabCi:
-  
-//   job("",image = ""):
-//     image("")
-//     script("")
-//     script("")
-//   job(""):
-//     script("")
+//> using repository https://maven.pkg.github.com/yjgbg/kepler
+//> using dep com.yjgbg::kepler:1.0.5
+import com.github.yjgbg.kepler.dsl.GitlabCi.{*,given}
+GitlabCi:
+    job("helloworld"):
+        image := "docker.io/alpine:latest"
+        script += "echo 'hello world'"
