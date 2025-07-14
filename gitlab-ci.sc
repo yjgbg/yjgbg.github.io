@@ -8,3 +8,4 @@ hello-world:
     - echo "hello world"
     - cat "$TRIGGER_PAYLOAD"
 """)
+os.write(os.pwd / ".env","EXECUTE_JOBS='true'")
