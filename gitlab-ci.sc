@@ -1,8 +1,8 @@
 //> using toolkit default
 //> using repository https://maven.pkg.github.com/yjgbg/kepler
-//> using dep com.yjgbg::kepler:1.0.7
-import com.github.yjgbg.kepler.dsl.GitlabCi.{*,given}
+//> using dep com.yjgbg::lib-kepler:1.0.9
+import kepler.GitlabCi.{*,given}
 GitlabCi:
-    job("helloworld"):
+    if (payload.path("action") == "closed"|| payload.path("pull")) job("printRef"):
         image := "docker.io/alpine:latest"
-        script += "echo 'hello world'"
+        script += s"echo '${payload.path[String]("$.head.ref")}'"
