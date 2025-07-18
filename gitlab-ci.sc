@@ -6,3 +6,4 @@ GitlabCi:
     if (payload.path("action") == "closed"|| payload.path("pull")) job("printRef"):
         image := "docker.io/alpine:latest"
         script += s"echo '${payload.path[String]("$.head.ref")}'"
+        
